@@ -1,8 +1,9 @@
+
+
 const Categories = () => {
   return (
     <div>
       <div className="container my-5">
-
       <h2 className="text-center mb-5">Categories</h2>
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">
@@ -165,18 +166,8 @@ const Categories = () => {
               </div>
             </div>
           </div>
-
-
-
-
-
         </div>
       </div>
-
-
-
-
-
     </div>
   );
 };
