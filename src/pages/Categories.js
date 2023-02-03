@@ -1,158 +1,170 @@
 const Categories = () => {
   return (
     <div>
-      <div class="container my-5">
-        <h2 class="text-center mb-5">Categories</h2>
+      <div className="container my-5">
 
-        <div class="accordion" id="categoriesAccordion">
-
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Recipes
-                </button>
-              </h2>
-            </div>
-
+      <h2 className="text-center mb-5">Categories</h2>
+        <div className="accordion" id="accordionExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingOne">
+              <button
+                className="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Recipes
+              </button>
+            </h2>
             <div
               id="collapseOne"
-              class="collapse show"
+              className="accordion-collapse collapse show"
               aria-labelledby="headingOne"
-              data-parent="#categoriesAccordion"
+              data-bs-parent="#accordionExample"
             >
-              <div class="card-body">
-                In this section, you can feature all your baking recipes,
-                including cakes, cookies, breads, pastries, and more. You can
-                categorize your recipes based on difficulty level, ingredients,
-                and special occasions. Use high-quality photos and clear
-                instructions to make your recipes easy to follow.
+              <div className="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the{" "}
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
               </div>
             </div>
           </div>
-
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Techniques
-                </button>
-              </h2>
-            </div>
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingTwo">
+              <button
+                className="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Techniques
+              </button>
+            </h2>
             <div
               id="collapseTwo"
-              class="collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingTwo"
-              data-parent="#categoriesAccordion"
+              data-bs-parent="#accordionExample"
             >
-              <div class="card-body">
-                This section can be all about the how-tos of baking. You can
-                share your tips on measuring, mixing, kneading, rolling, and
-                more. You can also include videos and step-by-step instructions
-                to help your readers understand the techniques.
+              <div className="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the{" "}
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
               </div>
             </div>
           </div>
-
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Ingredients
-                </button>
-              </h2>
-            </div>
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingThree">
+              <button
+                className="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Ingredients
+              </button>
+            </h2>
             <div
-              id="collapseTwo"
-              class="collapse"
-              aria-labelledby="headingTwo"
-              data-parent="#categoriesAccordion"
+              id="collapseThree"
+              className="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
             >
-              <div class="card-body">
-              Here, you can talk about the different ingredients used in baking, including flour, sugar, eggs, and more. You can also discuss the types of ingredients and how to choose the right one for your recipe.
+              <div className="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the{" "}
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
               </div>
             </div>
           </div>
-
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Baking Tips
-                </button>
-              </h2>
-            </div>
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFour">
+              <button
+                className="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Baking Tips
+              </button>
+            </h2>
             <div
-              id="collapseTwo"
-              class="collapse"
-              aria-labelledby="headingTwo"
-              data-parent="#categoriesAccordion"
+              id="collapseFour"
+              className="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
             >
-              <div class="card-body">
-              This section can be a collection of your best baking tips and advice, from how to prevent overbaking to how to decorate your creations. You can share your tips on troubleshooting common baking problems and provide advice for achieving the best results.
+              <div className="accordion-body">
+                <strong>This is the forth item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the{" "}
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
               </div>
             </div>
           </div>
-
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Inspiration
-                </button>
-              </h2>
-            </div>
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFive">
+              <button
+                className="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Inspiration
+              </button>
+            </h2>
             <div
-              id="collapseTwo"
-              class="collapse"
-              aria-labelledby="headingTwo"
-              data-parent="#categoriesAccordion"
+              id="collapseFive"
+              className="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample"
             >
-              <div class="card-body">
-              This section can be a place to share your baking inspiration, whether it's a recipe you found, a baking challenge you took on, or a baking trend you're excited about. You can also feature other bakers and their creations, and share your thoughts on the latest baking trends.
+              <div className="accordion-body">
+                <strong>This is the fifth item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the{" "}
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
               </div>
             </div>
           </div>
-
-
-
-
-
 
 
 
@@ -160,6 +172,11 @@ const Categories = () => {
 
         </div>
       </div>
+
+
+
+
+
     </div>
   );
 };
