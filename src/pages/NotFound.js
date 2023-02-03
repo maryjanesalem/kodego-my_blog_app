@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom';
 
 const NotFound = () => {
     return (
@@ -11,8 +11,8 @@ const NotFound = () => {
                     <img src="./img/error.jpg" width={800}></img>
                 </div>
                 <div className="text-center mt-5">
-                    <button type="button" class="btn btn-primary mx-2">GO HOME</button>
-                    <button type="button" class="btn btn-secondary mx-2">CONTACT US</button>
+                    <Link to="/" class="btn btn-primary mx-2">GO HOME</Link>
+                    <Link to="/" class="btn btn-secondary mx-2">CONTACT US</Link>
                 </div>
 
             </div>
