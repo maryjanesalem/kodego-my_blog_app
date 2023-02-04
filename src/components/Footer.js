@@ -25,7 +25,7 @@ const Footer = () => {
           </li>
         </ul>
 
-        <p className="text-center">
+        <p className="text-center  lato-font">
           &copy; 2023 Jane's Blog. All rights reserved.
         </p>
         <ul className="nav justify-content-center">

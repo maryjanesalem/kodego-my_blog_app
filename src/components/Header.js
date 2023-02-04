@@ -14,7 +14,7 @@ const Header = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 monserrat-font">
                             <li className="nav-item">
                                 <Link className="nav-link active text-light" aria-current="page" to="/">Home</Link>
                             </li>
@@ -28,9 +28,9 @@ const Header = () => {
                                 <Link className="nav-link text-light" to="/contact">Contact</Link>
                             </li>
                         </ul>
-                        <form className="d-flex" role="search">
+                        <form className="d-flex monserrat-font" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button class="btn btn-secondary" type="submit">Search</button>
+                                <button class="btn btn-secondary " type="submit">Search</button>
                         </form>
                     </div>
                 </div>

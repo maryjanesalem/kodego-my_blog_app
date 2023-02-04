@@ -44,7 +44,7 @@
     position: relative;
     margin: 0;
     top: 8px;
-    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Fascinate Inline', cursive!important;
     color: white;
     text-shadow: 2px 2px 4px #f0969c;
 
@@ -83,4 +83,12 @@
 
 .btn-login {
     margin-right: 2%;
+}
+
+.lato-font {
+  font-family: 'Lato', sans-serif;
+}
+
+.monserrat-font {
+    font-family: 'Montserrat', sans-serif;
 }
