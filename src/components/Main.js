@@ -1,4 +1,4 @@
-
+import Login from "./Login"
 
 const Main = () => {
     return (
@@ -8,7 +8,7 @@ const Main = () => {
                 <div className="row">
                     <div className="col-md-8">
                         <h2 className="mb-3">Latest Blog Posts</h2>
-                        <div className="card mb-3">
+                        <div className="card border-primary mb-3">
                             <img src="./img/tools.jpg" className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">10 Essential Baking Tools Every Home Baker Needs</h5>
@@ -16,7 +16,7 @@ const Main = () => {
                                 <a href="#" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
-                        <div className="card mb-3">
+                        <div className="card border-primary mb-3">
                             <img src="./img/ingredients.jpg" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">The Science Behind Baking: Understanding the Ingredients</h5>
@@ -24,7 +24,7 @@ const Main = () => {
                                 <a href="#" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
-                        <div className="card mb-3">
+                        <div className="card border-primary mb-3">
                             <img src="./img/bake.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">From Beginner to Pro: Baking Tips and Tricks</h5>
@@ -34,6 +34,9 @@ const Main = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
+
+                        <Login />
+
                         <h4 className="mb-3">About the Author</h4>
                         <img src="./img/profile.jpg" className="img-fluid mb-3 profile" alt="..." />
                         <p>Hi there! I'm Jane, a passionate baker and foodie. I've always had a love for creating delicious treats in the kitchen and sharing them with family and friends. On this blog, I want to share my baking adventures and inspire others to get creative in the kitchen. From classic recipes to modern twists, I'll be sharing my tips, tricks, and expertise to help you become a confident and skilled baker. Join me on this sweet journey and let's create some amazing baked goods together!</p>
@@ -41,7 +44,6 @@ const Main = () => {
                     </div>
                 </div>
             </main>
-
 
         </div>
     )

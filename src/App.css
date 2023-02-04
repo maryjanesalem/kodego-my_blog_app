@@ -72,3 +72,15 @@
     z-index: 3;
     padding-top: 30px;
 }
+
+.loginbuttons {
+    width: 100%;
+}
+.loginbuttons button {
+    width: 49%;
+    margin-top: 2em;
+}
+
+.btn-login {
+    margin-right: 2%;
+}

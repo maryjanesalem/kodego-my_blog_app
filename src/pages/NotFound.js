@@ -12,7 +12,7 @@ const NotFound = () => {
                 </div>
                 <div className="text-center mt-5">
                     <Link to="/" class="btn btn-primary mx-2">GO HOME</Link>
-                    <Link to="/" class="btn btn-secondary mx-2">CONTACT US</Link>
+                    <Link to="/contact" class="btn btn-secondary mx-2">CONTACT US</Link>
                 </div>
 
             </div>
