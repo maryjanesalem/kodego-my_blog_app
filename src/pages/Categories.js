@@ -16,6 +16,7 @@ const Categories = () => {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
+                <img src="./svg/macaroon.svg" width={30} className="categories-icon" />
                 Recipes
               </button>
             </h2>
@@ -48,6 +49,7 @@ const Categories = () => {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
+                <img src="./svg/cookie.svg" width={30} className="categories-icon" />
                 Techniques
               </button>
             </h2>
@@ -80,6 +82,7 @@ const Categories = () => {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
+                <img src="./svg/cheesecake.svg" width={30} className="categories-icon" />
                 Ingredients
               </button>
             </h2>
@@ -112,6 +115,7 @@ const Categories = () => {
                 aria-expanded="false"
                 aria-controls="collapseFour"
               >
+                <img src="./svg/brownie.svg" width={30} className="categories-icon" />
                 Baking Tips
               </button>
             </h2>
@@ -144,6 +148,7 @@ const Categories = () => {
                 aria-expanded="false"
                 aria-controls="collapseFive"
               >
+                <img src="./svg/cake_roll.svg" width={30} className="categories-icon" />
                 Inspiration
               </button>
             </h2>
