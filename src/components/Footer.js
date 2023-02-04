@@ -9,6 +9,7 @@ const Footer = () => {
         <ul className="nav justify-content-center mb-4">
           <li className="nav-item">
             <Link className="nav-link" to="/">
+            <i class="fab fa-facebook-f mr-2"></i>
               Facebook
             </Link>
           </li>
