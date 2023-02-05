@@ -3,7 +3,7 @@ import '../css/styles.scss'
 const Contact = () => {
     return (
         <main className="container my-5 contact">
-            <h2 className="text-center mb-3">Contact Us</h2>
+            <h2 className="text-center mb-3">Contact Me</h2>
             <div className="row justify-content-center">
                 <div className="col-md-8">
                     <form>
