@@ -2,7 +2,7 @@
 const Login = () => {
     return (
         <div>
-            <div className="card text-white bg-primary mb-3">
+            <div className="card text-white bg-primary mb-4">
                 <div className="card-body">
                     <h4 className="card-title text-center mt-2">Login</h4>
                     <p className="card-text">

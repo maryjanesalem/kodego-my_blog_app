@@ -4,14 +4,14 @@ const About = () => {
     return (
         <div>
 
-            <div class="container my-5">
-                <h2 class="text-center mb-5">About</h2>
+            <div className="container my-5 pb-5">
+                <h2 className="text-center mb-5">About</h2>
 
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="./img/profile.jpg" alt="Your Profile Picture" class="img-fluid mb-3 profile" />
+                <div className="row">
+                    <div className="col-md-3">
+                        <img src="./img/img2.jpg" alt="Your Profile Picture" className="img-fluid mb-3 profile" />
                     </div>
-                    <div class="col-md-9">
+                    <div className="col-md-9">
                         <h3>Hi there!</h3>
                         <p className="lato-font">My name is Jane and I am a passionate baker. I love creating new recipes, experimenting with different ingredients, and sharing my creations with others. This blog is a platform for me to share my love of baking with the world. Whether you're a seasoned baker or a beginner, I hope my recipes and tips will inspire you to get into the kitchen and start baking!</p>
 

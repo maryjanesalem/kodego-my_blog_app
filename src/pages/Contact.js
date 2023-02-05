@@ -1,4 +1,4 @@
-
+import '../css/styles.scss'
 
 const Contact = () => {
     return (

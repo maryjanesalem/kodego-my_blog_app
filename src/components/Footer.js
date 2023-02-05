@@ -1,25 +1,30 @@
 import { Link } from "react-router-dom";
+import { FaFacebook } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+
 
 const Footer = () => {
   return (
     <footer className="bg-light py-3">
       <div className="container">
 
-
         <ul className="nav justify-content-center mb-4">
           <li className="nav-item">
             <Link className="nav-link" to="/">
-            <i class="fab fa-facebook-f mr-2"></i>
+            <FaFacebook className="fs-3 icon" />
               Facebook
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/">
+            <FaInstagram className="fs-3 icon" />
               Instagram
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/">
+            <FaTwitter className="fs-3 icon" />
               Twitter
             </Link>
           </li>

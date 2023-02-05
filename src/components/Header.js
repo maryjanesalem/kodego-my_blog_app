@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
+import '../css/styles.scss'
 
 const Header = () => {
     return (
-        <div className="container-fluid header-top">
+        <header className="container-fluid header-top">
 
             <nav className="navbar navbar-expand-lg bg-primary">
                 <div className="container">
@@ -39,7 +40,7 @@ const Header = () => {
 
             </div>
 
-        </div>
+        </header>
     )
 }
 
