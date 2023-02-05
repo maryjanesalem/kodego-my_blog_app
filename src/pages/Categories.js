@@ -27,15 +27,7 @@ const Categories = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body  lato-font">
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via
-                CSS transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+              In this category, you can find a wide variety of baking recipes, from classic cakes and cookies to breads and pastries. Each recipe comes with step-by-step instructions, so you can recreate the baked goods in your own kitchen.
               </div>
             </div>
           </div>
@@ -60,15 +52,7 @@ const Categories = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body  lato-font">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+              This category focuses on the techniques and methods used in baking. You can find articles on topics such as kneading dough, rolling out pie crusts, and decorating cakes.
               </div>
             </div>
           </div>
@@ -93,15 +77,7 @@ const Categories = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body  lato-font">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+              This category focuses on the techniques and methods used in baking. You can find articles on topics such as kneading dough, rolling out pie crusts, and decorating cakes.
               </div>
             </div>
           </div>
@@ -126,15 +102,7 @@ const Categories = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body  lato-font">
-                <strong>This is the forth item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+              Here, you'll find helpful tips and tricks for making the best baked goods. From how to avoid overmixing your batter to tips for perfectly frosted cupcakes, this category is full of practical advice for bakers of all levels.
               </div>
             </div>
           </div>
@@ -159,15 +127,7 @@ const Categories = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body  lato-font">
-                <strong>This is the fifth item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+              This category is all about inspiring you to get creative in the kitchen. From new flavor combinations to unique decorating ideas, you'll find plenty of inspiration to help you take your baking to the next level. Whether you're a beginner or an experienced baker, this category is sure to get your creativity flowing!
               </div>
             </div>
           </div>

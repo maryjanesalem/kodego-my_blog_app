@@ -12,7 +12,7 @@ const Main = () => {
                             <img src="./img/bake.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">From Beginner to Pro: Baking Tips and Tricks</h5>
-                                <p className="card-text lato-font">In this post, you can share your experience and tips for baking, from the basics like measuring and mixing, to advanced techniques such as decorating and presentation. You can provide step-by-step instructions for common baking tasks, and offer advice for troubleshooting common problems like over or under baking. You can also include photos and videos to demonstrate the techniques, and provide recipe suggestions for readers to try.</p>
+                                <p className="card-text lato-font">Baking can seem like a daunting task, especially for those who are just starting out. But with a little bit of practice and some helpful tips and tricks, you can transform yourself from a beginner to a pro baker in no time. Whether you're looking to bake a simple cake or create a complex dessert, the following tips will help you master the art of baking and take your skills to the next level.</p>
                                 <a href="#" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ const Main = () => {
                             <img src="./img/tools.jpg" className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">10 Essential Baking Tools Every Home Baker Needs</h5>
-                                <p className="card-text lato-font">In this post, you can highlight the must-have tools for baking, including measuring cups, mixer, spatula, baking sheets, etc. You can explain why each tool is important, how to use them, and provide recommendations for high-quality products.</p>
+                                <p className="card-text lato-font">Baking can be a lucrative and enjoyable activity, but it can also be frustrating and provide substandard results if you don't have the necessary equipment. Having the correct tools on hand may make a world of difference whether you are an experienced baker or just getting started. We'll discuss the 10 important baking tools that every home baker needs in this blog.</p>
                                 <a href="#" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ const Main = () => {
                             <img src="./img/ingredients.jpg" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">The Science Behind Baking: Understanding the Ingredients</h5>
-                                <p className="card-text lato-font">In this post, you can delve into the science behind baking by exploring the different ingredients used in baking, such as flour, sugar, eggs, and baking powder. You can explain how each ingredient works, what it does, and how it affects the final result. You can also talk about different types of flour, sugar, and other ingredients, and how to choose the right one for your recipe.</p>
+                                <p className="card-text lato-font">Baking can often seem like a simple process, but there’s actually a lot of science that goes into creating the perfect cake, bread, or cookie. Understanding the ingredients and how they work together is key to creating delicious baked goods that are consistent every time.</p>
                                 <a href="#" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
