@@ -11,8 +11,8 @@ const NotFound = () => {
                     <img src="./img/platter.jpg" width={800}></img>
                 </div>
                 <div className="text-center mt-5">
-                    <Link to="/" class="btn btn-primary mx-2">GO HOME</Link>
-                    <Link to="/contact" class="btn btn-secondary mx-2">CONTACT US</Link>
+                    <Link to="/" className="btn btn-primary mx-2">GO HOME</Link>
+                    <Link to="/contact" className="btn btn-secondary mx-2">CONTACT US</Link>
                 </div>
 
             </div>

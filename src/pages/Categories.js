@@ -2,7 +2,7 @@
 
 const Categories = () => {
   return (
-    <div>
+    <div className="categories">
       <div className="container my-5">
       <h2 className="text-center mb-5">Categories</h2>
         <div className="accordion" id="accordionExample">

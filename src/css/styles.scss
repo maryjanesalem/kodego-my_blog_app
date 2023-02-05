@@ -37,3 +37,31 @@ html {
   header {
     overflow: hidden;
   }
+
+  .josefin,
+  main h5,
+  nav li,
+  .login h4 {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .categories {
+
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+
+  .about {
+
+    h2, h3 {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+
+  .contact {
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+
+    }
+  }

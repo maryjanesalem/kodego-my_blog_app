@@ -29,9 +29,9 @@ const Header = () => {
                                 <Link className="nav-link text-light" to="/contact">Contact</Link>
                             </li>
                         </ul>
-                        <form className="d-flex monserrat-font" role="search">
+                        <form className="d-flex monserrat-font josefin" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button class="btn btn-secondary " type="submit">Search</button>
+                                <button className="btn btn-secondary" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
