@@ -79,6 +79,7 @@
 .loginbuttons button {
     width: 49%;
     margin-top: 2em;
+    font-weight: 700;
 }
 
 .btn-login {
