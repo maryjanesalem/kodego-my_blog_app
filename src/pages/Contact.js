@@ -2,7 +2,7 @@ import '../css/styles.scss'
 
 const Contact = () => {
     return (
-        <main className="container my-5 contact">
+        <main className="container my-5 contact pb-5 mb-5">
             <h2 className="text-center mb-3">Contact Me</h2>
             <div className="row justify-content-center">
                 <div className="col-md-8">
@@ -22,7 +22,7 @@ const Contact = () => {
                             <textarea className="form-control" id="message" rows="3"></textarea>
                         </div>
                         <br />
-                        <button type="submit" className="btn btn-primary">Submit</button>
+                        <button type="submit" className="btn btn-primary mb-5">Submit</button>
                     </form>
                 </div>
             </div>

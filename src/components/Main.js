@@ -42,7 +42,7 @@ const Main = () => {
                         <h4 className="mb-3 pt-3 josefin">About the Author</h4>
                         <img src="./img/img1.jpg" className="img-fluid mb-3 profile" alt="..." />
                         <p className="lato-font">Hi there! I'm Jane, a passionate baker and foodie. I've always had a love for creating delicious treats in the kitchen and sharing them with family and friends. On this blog, I want to share my baking adventures and inspire others to get creative in the kitchen. From classic recipes to modern twists, I'll be sharing my tips, tricks, and expertise to help you become a confident and skilled baker. Join me on this sweet journey and let's create some amazing baked goods together!</p>
-                        <Link to="/" className="btn btn-primary">Learn More</Link>
+                        <Link to="/about" className="btn btn-primary">Learn More</Link>
                     </div>
                 </div>
             </main>
